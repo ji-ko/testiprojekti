@@ -10,7 +10,7 @@ services:
     container_name: watchtower
 
   expressapp:
-    image: qqtt00/expressapp:latest
+    image: qqtt00/expressapp:v1
     container_name: expressapp
     ports:
       - "8080:8080"
