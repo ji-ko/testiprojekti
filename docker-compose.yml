@@ -12,3 +12,5 @@ services:
   expressapp:
     image: qqtt00/expressapp
     container_name: expressapp
+    ports:
+      - "8080:8080"
