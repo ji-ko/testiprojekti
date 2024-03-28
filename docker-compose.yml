@@ -10,5 +10,5 @@ services:
     container_name: watchtower
   
   expressapp:
-    image: 57f7e3d773df
-    container_name: express_app
+    image: qqtt00/expressapp
+    container_name: expressapp
