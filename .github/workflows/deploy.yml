@@ -26,4 +26,4 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         push: true
-        tags: qqtt00/expressapp:v1,qqtt00/expressapp:latest
+        tags: qqtt00/expressapp:v1
